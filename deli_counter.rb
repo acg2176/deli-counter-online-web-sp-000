@@ -33,5 +33,5 @@ def now_serving(line)
   else
     first = line.pop
     puts "Currently serving #{first}"
-
+end
 end
