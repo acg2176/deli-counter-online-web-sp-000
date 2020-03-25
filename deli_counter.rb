@@ -20,7 +20,7 @@ def take_a_number(line, person)
     line << person
 
   else
-    line << person #[L,A,S,G]
+    line << person
     final = line.index(line[-1]) + 1
     puts "Welcome, #{line[-1]}. You are number #{final} in line."
   end
